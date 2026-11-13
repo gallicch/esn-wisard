@@ -30,20 +30,6 @@ from sklearn.pipeline import make_pipeline
 # Data
 # ----------------------------------------------------------------------------
 DATA_DIR = os.environ.get("ESNW_DATA", os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "ts"))  # <name>_{TRAIN,TEST}.ts
-DATASETS = ["ECG5000", "Wafer", "GunPoint", "FordA", "Yoga",
-            "SyntheticControl", "ItalyPowerDemand", "Trace"]
-
-# reservoir configuration selected in the thesis (per dataset, via RidgeCV grid search)
-BEST_ESN = {
-    "ECG5000":          dict(units=300, sr=0.99, lr=0.3),
-    "Wafer":            dict(units=300, sr=0.99, lr=0.5),
-    "GunPoint":         dict(units=200, sr=0.99, lr=0.1),
-    "FordA":            dict(units=100, sr=0.99, lr=0.5),
-    "Yoga":             dict(units=300, sr=0.99, lr=0.3),
-    "SyntheticControl": dict(units=200, sr=0.99, lr=0.3),
-    "ItalyPowerDemand": dict(units=300, sr=0.70, lr=0.3),
-    "Trace":            dict(units=200, sr=0.99, lr=0.1),
-}
 
 
 def load_dataset(name):

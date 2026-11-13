@@ -1,8 +1,7 @@
 __pycache__/
 *.pyc
 data/
-results/*/select/
-results/*/test_*.jsonl
+results/
 *.log
 .DS_Store
 .mplconfig/

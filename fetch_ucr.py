@@ -5,8 +5,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
 TS = os.environ.get("ESNW_DATA", os.path.join(DATA, "ts"))
 os.makedirs(TS, exist_ok=True)
-NAMES = ["ECG5000", "Wafer", "GunPoint", "FordA", "Yoga", "SyntheticControl", "ItalyPowerDemand", "Trace",
-         "ECG200", "Strawberry", "ChlorineConcentration", "MedicalImages", "Earthquakes"]
+NAMES = ["Earthquakes", "FordA", "MedicalImages", "SyntheticControl", "Trace", "Yoga"]
 for name in (NAMES if sys.argv[1] == "all" else sys.argv[1].split(",")):
     z = os.path.join(DATA, f"{name}.zip")
     if not os.path.exists(z):
