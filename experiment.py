@@ -1,9 +1,9 @@
 """
-ESN-WiSARD experiment of the paper: reservoir of N_h = 1024 units, mean-state pooling, 6 UCR benchmarks.
+ESN-WiSARD experiment of the paper: reservoir of N_h = 1024 units, mean-state pooling, 10 UCR benchmarks.
 
-Benchmarks: the UCR datasets of our initial pool for which temporal alignment matters, i.e., for which 1-NN DTW with
-the learned warping window improves over 1-NN Euclidean distance by at least 5% (UCR archive summary):
-Earthquakes, FordA, MedicalImages, SyntheticControl, Trace, Yoga.
+Benchmarks: 10 univariate UCR datasets in which the class depends on the temporal development of the signal rather
+than on an aligned shape, every series z-normalized (fetch_ucr.py): ACSF1, FordA, FordB, FreezerRegularTrain,
+LargeKitchenAppliances, RefrigerationDevices, SemgHandMovementCh2, SyntheticControl, Trace, TwoPatterns.
 
 Reservoir (leaky ESN, 10% recurrent and input connectivity, state reset for every sequence): full grid of
     spectral radius {0.3, 0.6, 0.9, 1.0, 1.2} x input scaling {0.1, 0.5, 1, 2} x leak rate {0.01, 0.03, 0.1, 0.3, 0.5, 1}
@@ -38,7 +38,7 @@ warnings.filterwarnings("ignore")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RES = os.environ.get("ESNW_RES", os.path.join(HERE, "results"))
-DATASETS = ["FordA", "Yoga", "Earthquakes", "MedicalImages", "Trace", "SyntheticControl"]   # most expensive first
+DATASETS = ["FordB", "FordA", "SemgHandMovementCh2", "ACSF1", "LargeKitchenAppliances", "RefrigerationDevices", "TwoPatterns", "FreezerRegularTrain", "Trace", "SyntheticControl"]   # most expensive first
 UNITS = 1024
 SPACE = dict(sr=[0.3, 0.6, 0.9, 1.0, 1.2], input_scaling=[0.1, 0.5, 1.0, 2.0],
              lr=[0.01, 0.03, 0.1, 0.3, 0.5, 1.0], bias=[0.0, 0.1, 1.0])

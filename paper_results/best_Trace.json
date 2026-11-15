@@ -1,0 +1,288 @@
+{
+ "esn|ridge": {
+  "cfg": {
+   "id": 1,
+   "sr": 0.3,
+   "input_scaling": 0.1,
+   "lr": 0.01,
+   "bias": 0.0
+  },
+  "params": [
+   "alpha=1e-14"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm": {
+  "cfg": {
+   "id": 27,
+   "sr": 0.3,
+   "input_scaling": 0.5,
+   "lr": 0.1,
+   "bias": 1.0
+  },
+  "params": [
+   "q=mm",
+   "b=6",
+   "alpha=1e-03"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=3": {
+  "cfg": {
+   "id": 286,
+   "sr": 1.0,
+   "input_scaling": 2.0,
+   "lr": 1.0,
+   "bias": 0.0
+  },
+  "params": [
+   "q=mm",
+   "b=3",
+   "alpha=1e+00"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=4": {
+  "cfg": {
+   "id": 179,
+   "sr": 0.9,
+   "input_scaling": 0.5,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=mm",
+   "b=4",
+   "alpha=1e-14"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=5": {
+  "cfg": {
+   "id": 45,
+   "sr": 0.3,
+   "input_scaling": 1.0,
+   "lr": 0.1,
+   "bias": 1.0
+  },
+  "params": [
+   "q=mm",
+   "b=5",
+   "alpha=1e-14"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=6": {
+  "cfg": {
+   "id": 27,
+   "sr": 0.3,
+   "input_scaling": 0.5,
+   "lr": 0.1,
+   "bias": 1.0
+  },
+  "params": [
+   "q=mm",
+   "b=6",
+   "alpha=1e-03"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu": {
+  "cfg": {
+   "id": 3,
+   "sr": 0.3,
+   "input_scaling": 0.1,
+   "lr": 0.01,
+   "bias": 1.0
+  },
+  "params": [
+   "q=qu",
+   "b=5",
+   "alpha=1e-01"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=3": {
+  "cfg": {
+   "id": 45,
+   "sr": 0.3,
+   "input_scaling": 1.0,
+   "lr": 0.1,
+   "bias": 1.0
+  },
+  "params": [
+   "q=qu",
+   "b=3",
+   "alpha=1e-14"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=4": {
+  "cfg": {
+   "id": 30,
+   "sr": 0.3,
+   "input_scaling": 0.5,
+   "lr": 0.3,
+   "bias": 1.0
+  },
+  "params": [
+   "q=qu",
+   "b=4",
+   "alpha=1e-14"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=5": {
+  "cfg": {
+   "id": 3,
+   "sr": 0.3,
+   "input_scaling": 0.1,
+   "lr": 0.01,
+   "bias": 1.0
+  },
+  "params": [
+   "q=qu",
+   "b=5",
+   "alpha=1e-01"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=6": {
+  "cfg": {
+   "id": 3,
+   "sr": 0.3,
+   "input_scaling": 0.1,
+   "lr": 0.01,
+   "bias": 1.0
+  },
+  "params": [
+   "q=qu",
+   "b=6",
+   "alpha=1e-14"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|W-MM": {
+  "cfg": {
+   "id": 358,
+   "sr": 1.2,
+   "input_scaling": 2.0,
+   "lr": 1.0,
+   "bias": 0.0
+  },
+  "params": [
+   "Q=32",
+   "n=16",
+   "bl=1"
+  ],
+  "val_acc": 95.0,
+  "n_val": 15
+ },
+ "esn|W-QU": {
+  "cfg": {
+   "id": 358,
+   "sr": 1.2,
+   "input_scaling": 2.0,
+   "lr": 1.0,
+   "bias": 0.0
+  },
+  "params": [
+   "Q=8",
+   "n=32",
+   "bl=1"
+  ],
+  "val_acc": 96.66666666666667,
+  "n_val": 15
+ },
+ "esn|W-QG": {
+  "cfg": {
+   "id": 341,
+   "sr": 1.2,
+   "input_scaling": 1.0,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "Q=8",
+   "n=8",
+   "bl=0"
+  ],
+  "val_acc": 96.66666666666667,
+  "n_val": 15
+ },
+ "esn|W-QG-h": {
+  "cfg": {
+   "id": 340,
+   "sr": 1.2,
+   "input_scaling": 1.0,
+   "lr": 1.0,
+   "bias": 0.0
+  },
+  "params": [
+   "Q=32",
+   "n=32",
+   "bl=0"
+  ],
+  "val_acc": 94.99999999999999,
+  "n_val": 15
+ },
+ "raw|ridge": {
+  "cfg": null,
+  "params": [
+   "alpha=1e-01"
+  ],
+  "val_acc": 80.0,
+  "n_val": 15
+ },
+ "raw|W-MM": {
+  "cfg": null,
+  "params": [
+   "Q=64",
+   "n=8",
+   "bl=1"
+  ],
+  "val_acc": 91.66666666666666,
+  "n_val": 15
+ },
+ "raw|W-QU": {
+  "cfg": null,
+  "params": [
+   "Q=32",
+   "n=8",
+   "bl=0"
+  ],
+  "val_acc": 89.66666666666666,
+  "n_val": 15
+ },
+ "raw|W-QG": {
+  "cfg": null,
+  "params": [
+   "Q=64",
+   "n=16",
+   "bl=0"
+  ],
+  "val_acc": 92.66666666666666,
+  "n_val": 15
+ },
+ "raw|W-QG-h": {
+  "cfg": null,
+  "params": [
+   "Q=8",
+   "n=32",
+   "bl=1"
+  ],
+  "val_acc": 90.99999999999999,
+  "n_val": 15
+ }
+}

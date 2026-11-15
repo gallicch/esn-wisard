@@ -1,0 +1,288 @@
+{
+ "esn|ridge": {
+  "cfg": {
+   "id": 336,
+   "sr": 1.2,
+   "input_scaling": 1.0,
+   "lr": 0.3,
+   "bias": 1.0
+  },
+  "params": [
+   "alpha=1e-05"
+  ],
+  "val_acc": 94.14205349899984,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm": {
+  "cfg": {
+   "id": 323,
+   "sr": 1.2,
+   "input_scaling": 0.5,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=mm",
+   "b=6",
+   "alpha=1e+00"
+  ],
+  "val_acc": 93.22516891636563,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=3": {
+  "cfg": {
+   "id": 323,
+   "sr": 1.2,
+   "input_scaling": 0.5,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=mm",
+   "b=3",
+   "alpha=1e+01"
+  ],
+  "val_acc": 91.81337575766737,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=4": {
+  "cfg": {
+   "id": 233,
+   "sr": 1.0,
+   "input_scaling": 0.1,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=mm",
+   "b=4",
+   "alpha=1e+01"
+  ],
+  "val_acc": 92.46421391538313,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=5": {
+  "cfg": {
+   "id": 323,
+   "sr": 1.2,
+   "input_scaling": 0.5,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=mm",
+   "b=5",
+   "alpha=1e+00"
+  ],
+  "val_acc": 92.89519627552639,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=6": {
+  "cfg": {
+   "id": 323,
+   "sr": 1.2,
+   "input_scaling": 0.5,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=mm",
+   "b=6",
+   "alpha=1e+00"
+  ],
+  "val_acc": 93.22516891636563,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu": {
+  "cfg": {
+   "id": 233,
+   "sr": 1.0,
+   "input_scaling": 0.1,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=qu",
+   "b=6",
+   "alpha=1e+01"
+  ],
+  "val_acc": 92.71186974419436,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=3": {
+  "cfg": {
+   "id": 233,
+   "sr": 1.0,
+   "input_scaling": 0.1,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=qu",
+   "b=3",
+   "alpha=1e+01"
+  ],
+  "val_acc": 92.14347436149363,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=4": {
+  "cfg": {
+   "id": 233,
+   "sr": 1.0,
+   "input_scaling": 0.1,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=qu",
+   "b=4",
+   "alpha=1e+01"
+  ],
+  "val_acc": 92.5102030019499,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=5": {
+  "cfg": {
+   "id": 233,
+   "sr": 1.0,
+   "input_scaling": 0.1,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=qu",
+   "b=5",
+   "alpha=1e+01"
+  ],
+  "val_acc": 92.69349174438582,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=6": {
+  "cfg": {
+   "id": 233,
+   "sr": 1.0,
+   "input_scaling": 0.1,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "q=qu",
+   "b=6",
+   "alpha=1e+01"
+  ],
+  "val_acc": 92.71186974419436,
+  "n_val": 15
+ },
+ "esn|W-MM": {
+  "cfg": {
+   "id": 233,
+   "sr": 1.0,
+   "input_scaling": 0.1,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "Q=64",
+   "n=32",
+   "bl=0"
+  ],
+  "val_acc": 88.07291745393535,
+  "n_val": 15
+ },
+ "esn|W-QU": {
+  "cfg": {
+   "id": 233,
+   "sr": 1.0,
+   "input_scaling": 0.1,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "Q=64",
+   "n=8",
+   "bl=0"
+  ],
+  "val_acc": 88.25624398526737,
+  "n_val": 15
+ },
+ "esn|W-QG": {
+  "cfg": {
+   "id": 233,
+   "sr": 1.0,
+   "input_scaling": 0.1,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "Q=64",
+   "n=32",
+   "bl=0"
+  ],
+  "val_acc": 88.10963566465628,
+  "n_val": 15
+ },
+ "esn|W-QG-h": {
+  "cfg": {
+   "id": 233,
+   "sr": 1.0,
+   "input_scaling": 0.1,
+   "lr": 1.0,
+   "bias": 0.1
+  },
+  "params": [
+   "Q=32",
+   "n=32",
+   "bl=1"
+  ],
+  "val_acc": 86.90881791294449,
+  "n_val": 15
+ },
+ "raw|ridge": {
+  "cfg": null,
+  "params": [
+   "alpha=1e-04"
+  ],
+  "val_acc": 53.988051151049774,
+  "n_val": 15
+ },
+ "raw|W-MM": {
+  "cfg": null,
+  "params": [
+   "Q=64",
+   "n=32",
+   "bl=1"
+  ],
+  "val_acc": 72.02063525653624,
+  "n_val": 15
+ },
+ "raw|W-QU": {
+  "cfg": null,
+  "params": [
+   "Q=64",
+   "n=16",
+   "bl=1"
+  ],
+  "val_acc": 74.62420202447714,
+  "n_val": 15
+ },
+ "raw|W-QG": {
+  "cfg": null,
+  "params": [
+   "Q=64",
+   "n=32",
+   "bl=1"
+  ],
+  "val_acc": 70.49864967677898,
+  "n_val": 15
+ },
+ "raw|W-QG-h": {
+  "cfg": null,
+  "params": [
+   "Q=64",
+   "n=32",
+   "bl=1"
+  ],
+  "val_acc": 60.863476276131024,
+  "n_val": 15
+ }
+}

@@ -1,0 +1,2305 @@
+{
+ "datasets": [
+  "ACSF1",
+  "FordA",
+  "FordB",
+  "FreezerRegularTrain",
+  "LargeKitchenAppliances",
+  "RefrigerationDevices",
+  "SemgHandMovementCh2",
+  "SyntheticControl",
+  "Trace",
+  "TwoPatterns"
+ ],
+ "n_seeds": 10,
+ "friedman": {
+  "methods": [
+   "Ridge",
+   "R$_{q}$",
+   "W-MM",
+   "W-QU",
+   "W-QG",
+   "raw W-MM",
+   "raw W-QU",
+   "raw W-QG"
+  ],
+  "avg_ranks": [
+   2.4,
+   2.6,
+   3.75,
+   3.7,
+   4.35,
+   6.55,
+   6.3,
+   6.35
+  ],
+  "chi2": 33.597,
+  "p": 2.049083127982499e-05,
+  "cd": 3.32,
+  "k": 8,
+  "N": 10,
+  "cliques": [
+   [
+    "Ridge",
+    "R$_{q}$",
+    "W-QU",
+    "W-MM",
+    "W-QG"
+   ],
+   [
+    "W-QU",
+    "W-MM",
+    "W-QG",
+    "raw W-QU",
+    "raw W-QG",
+    "raw W-MM"
+   ]
+  ]
+ },
+ "mean_acc": {
+  "esn|W-MM": 83.1,
+  "esn|W-QG": 83.04,
+  "esn|W-QG-h": 83.15,
+  "esn|W-QU": 83.09,
+  "esn|ridge": 86.2,
+  "esn|ridge_q|mm": 85.65,
+  "esn|ridge_q|mm|b=3": 83.56,
+  "esn|ridge_q|mm|b=4": 83.96,
+  "esn|ridge_q|mm|b=5": 85.04,
+  "esn|ridge_q|mm|b=6": 85.54,
+  "esn|ridge_q|qu": 86.17,
+  "esn|ridge_q|qu|b=3": 85.38,
+  "esn|ridge_q|qu|b=4": 86.36,
+  "esn|ridge_q|qu|b=5": 86.89,
+  "esn|ridge_q|qu|b=6": 86.15,
+  "raw|W-MM": 74.25,
+  "raw|W-QG": 72.76,
+  "raw|W-QG-h": 69.76,
+  "raw|W-QU": 72.92,
+  "raw|ridge": 59.7
+ },
+ "per_dataset": {
+  "ACSF1": {
+   "esn|W-MM": [
+    83.6,
+    1.62
+   ],
+   "esn|W-QG": [
+    79.8,
+    0.98
+   ],
+   "esn|W-QG-h": [
+    81.6,
+    1.62
+   ],
+   "esn|W-QU": [
+    82.5,
+    2.01
+   ],
+   "esn|ridge": [
+    78.4,
+    2.06
+   ],
+   "esn|ridge_q|mm": [
+    83.0,
+    1.41
+   ],
+   "esn|ridge_q|mm|b=3": [
+    83.5,
+    2.66
+   ],
+   "esn|ridge_q|mm|b=4": [
+    83.4,
+    1.43
+   ],
+   "esn|ridge_q|mm|b=5": [
+    83.0,
+    1.41
+   ],
+   "esn|ridge_q|mm|b=6": [
+    81.9,
+    1.22
+   ],
+   "esn|ridge_q|qu": [
+    84.6,
+    2.01
+   ],
+   "esn|ridge_q|qu|b=3": [
+    86.7,
+    1.1
+   ],
+   "esn|ridge_q|qu|b=4": [
+    84.6,
+    1.69
+   ],
+   "esn|ridge_q|qu|b=5": [
+    87.8,
+    1.94
+   ],
+   "esn|ridge_q|qu|b=6": [
+    84.6,
+    2.01
+   ],
+   "raw|W-MM": [
+    79.4,
+    0.49
+   ],
+   "raw|W-QG": [
+    81.0,
+    0.63
+   ],
+   "raw|W-QG-h": [
+    81.0,
+    0.45
+   ],
+   "raw|W-QU": [
+    81.4,
+    0.8
+   ],
+   "raw|ridge": [
+    44.0,
+    0.0
+   ]
+  },
+  "FordA": {
+   "esn|W-MM": [
+    85.63,
+    1.17
+   ],
+   "esn|W-QG": [
+    85.27,
+    1.18
+   ],
+   "esn|W-QG-h": [
+    84.55,
+    1.52
+   ],
+   "esn|W-QU": [
+    86.42,
+    1.25
+   ],
+   "esn|ridge": [
+    93.47,
+    0.34
+   ],
+   "esn|ridge_q|mm": [
+    92.8,
+    0.36
+   ],
+   "esn|ridge_q|mm|b=3": [
+    91.29,
+    0.89
+   ],
+   "esn|ridge_q|mm|b=4": [
+    91.91,
+    0.78
+   ],
+   "esn|ridge_q|mm|b=5": [
+    92.38,
+    0.4
+   ],
+   "esn|ridge_q|mm|b=6": [
+    92.8,
+    0.36
+   ],
+   "esn|ridge_q|qu": [
+    92.72,
+    0.35
+   ],
+   "esn|ridge_q|qu|b=3": [
+    92.01,
+    0.42
+   ],
+   "esn|ridge_q|qu|b=4": [
+    92.52,
+    0.38
+   ],
+   "esn|ridge_q|qu|b=5": [
+    92.66,
+    0.49
+   ],
+   "esn|ridge_q|qu|b=6": [
+    92.72,
+    0.35
+   ],
+   "raw|W-MM": [
+    74.74,
+    0.57
+   ],
+   "raw|W-QG": [
+    74.39,
+    0.82
+   ],
+   "raw|W-QG-h": [
+    67.9,
+    0.4
+   ],
+   "raw|W-QU": [
+    76.17,
+    0.69
+   ],
+   "raw|ridge": [
+    52.27,
+    0.0
+   ]
+  },
+  "FordB": {
+   "esn|W-MM": [
+    70.9,
+    2.87
+   ],
+   "esn|W-QG": [
+    70.9,
+    2.75
+   ],
+   "esn|W-QG-h": [
+    69.93,
+    2.82
+   ],
+   "esn|W-QU": [
+    71.41,
+    2.89
+   ],
+   "esn|ridge": [
+    80.23,
+    0.36
+   ],
+   "esn|ridge_q|mm": [
+    78.36,
+    0.95
+   ],
+   "esn|ridge_q|mm|b=3": [
+    76.63,
+    0.92
+   ],
+   "esn|ridge_q|mm|b=4": [
+    76.63,
+    0.78
+   ],
+   "esn|ridge_q|mm|b=5": [
+    78.19,
+    0.89
+   ],
+   "esn|ridge_q|mm|b=6": [
+    78.36,
+    0.95
+   ],
+   "esn|ridge_q|qu": [
+    77.52,
+    0.89
+   ],
+   "esn|ridge_q|qu|b=3": [
+    76.12,
+    1.2
+   ],
+   "esn|ridge_q|qu|b=4": [
+    77.3,
+    0.98
+   ],
+   "esn|ridge_q|qu|b=5": [
+    77.31,
+    0.92
+   ],
+   "esn|ridge_q|qu|b=6": [
+    77.52,
+    0.89
+   ],
+   "raw|W-MM": [
+    63.62,
+    1.27
+   ],
+   "raw|W-QG": [
+    62.26,
+    0.77
+   ],
+   "raw|W-QG-h": [
+    55.8,
+    0.64
+   ],
+   "raw|W-QU": [
+    64.65,
+    0.91
+   ],
+   "raw|ridge": [
+    50.49,
+    0.0
+   ]
+  },
+  "FreezerRegularTrain": {
+   "esn|W-MM": [
+    94.12,
+    0.25
+   ],
+   "esn|W-QG": [
+    95.37,
+    0.34
+   ],
+   "esn|W-QG-h": [
+    95.46,
+    0.17
+   ],
+   "esn|W-QU": [
+    95.59,
+    0.41
+   ],
+   "esn|ridge": [
+    99.5,
+    0.03
+   ],
+   "esn|ridge_q|mm": [
+    99.48,
+    0.17
+   ],
+   "esn|ridge_q|mm|b=3": [
+    97.23,
+    0.72
+   ],
+   "esn|ridge_q|mm|b=4": [
+    98.58,
+    0.33
+   ],
+   "esn|ridge_q|mm|b=5": [
+    98.2,
+    0.77
+   ],
+   "esn|ridge_q|mm|b=6": [
+    99.48,
+    0.17
+   ],
+   "esn|ridge_q|qu": [
+    97.51,
+    0.36
+   ],
+   "esn|ridge_q|qu|b=3": [
+    97.31,
+    0.81
+   ],
+   "esn|ridge_q|qu|b=4": [
+    97.45,
+    0.56
+   ],
+   "esn|ridge_q|qu|b=5": [
+    97.51,
+    0.36
+   ],
+   "esn|ridge_q|qu|b=6": [
+    97.88,
+    0.87
+   ],
+   "raw|W-MM": [
+    91.35,
+    0.55
+   ],
+   "raw|W-QG": [
+    92.53,
+    0.26
+   ],
+   "raw|W-QG-h": [
+    92.44,
+    0.43
+   ],
+   "raw|W-QU": [
+    91.32,
+    0.25
+   ],
+   "raw|ridge": [
+    99.4,
+    0.0
+   ]
+  },
+  "LargeKitchenAppliances": {
+   "esn|W-MM": [
+    76.88,
+    1.5
+   ],
+   "esn|W-QG": [
+    81.68,
+    1.57
+   ],
+   "esn|W-QG-h": [
+    79.01,
+    1.31
+   ],
+   "esn|W-QU": [
+    78.91,
+    1.2
+   ],
+   "esn|ridge": [
+    85.79,
+    1.22
+   ],
+   "esn|ridge_q|mm": [
+    86.43,
+    1.48
+   ],
+   "esn|ridge_q|mm|b=3": [
+    79.81,
+    1.35
+   ],
+   "esn|ridge_q|mm|b=4": [
+    82.43,
+    1.6
+   ],
+   "esn|ridge_q|mm|b=5": [
+    84.59,
+    1.23
+   ],
+   "esn|ridge_q|mm|b=6": [
+    86.43,
+    1.48
+   ],
+   "esn|ridge_q|qu": [
+    85.17,
+    0.79
+   ],
+   "esn|ridge_q|qu|b=3": [
+    84.53,
+    1.25
+   ],
+   "esn|ridge_q|qu|b=4": [
+    85.55,
+    1.22
+   ],
+   "esn|ridge_q|qu|b=5": [
+    85.17,
+    0.79
+   ],
+   "esn|ridge_q|qu|b=6": [
+    85.47,
+    1.01
+   ],
+   "raw|W-MM": [
+    54.19,
+    0.44
+   ],
+   "raw|W-QG": [
+    57.55,
+    0.29
+   ],
+   "raw|W-QG-h": [
+    57.36,
+    0.48
+   ],
+   "raw|W-QU": [
+    56.32,
+    0.39
+   ],
+   "raw|ridge": [
+    37.33,
+    0.0
+   ]
+  },
+  "RefrigerationDevices": {
+   "esn|W-MM": [
+    50.96,
+    2.13
+   ],
+   "esn|W-QG": [
+    52.61,
+    1.67
+   ],
+   "esn|W-QG-h": [
+    53.36,
+    1.81
+   ],
+   "esn|W-QU": [
+    48.69,
+    0.84
+   ],
+   "esn|ridge": [
+    52.24,
+    1.89
+   ],
+   "esn|ridge_q|mm": [
+    49.92,
+    2.26
+   ],
+   "esn|ridge_q|mm|b=3": [
+    51.81,
+    1.7
+   ],
+   "esn|ridge_q|mm|b=4": [
+    47.97,
+    2.62
+   ],
+   "esn|ridge_q|mm|b=5": [
+    50.99,
+    1.82
+   ],
+   "esn|ridge_q|mm|b=6": [
+    49.92,
+    2.26
+   ],
+   "esn|ridge_q|qu": [
+    48.77,
+    1.48
+   ],
+   "esn|ridge_q|qu|b=3": [
+    49.55,
+    1.46
+   ],
+   "esn|ridge_q|qu|b=4": [
+    53.71,
+    1.75
+   ],
+   "esn|ridge_q|qu|b=5": [
+    53.63,
+    2.35
+   ],
+   "esn|ridge_q|qu|b=6": [
+    48.77,
+    1.48
+   ],
+   "raw|W-MM": [
+    55.23,
+    1.18
+   ],
+   "raw|W-QG": [
+    50.67,
+    0.96
+   ],
+   "raw|W-QG-h": [
+    46.8,
+    0.72
+   ],
+   "raw|W-QU": [
+    51.6,
+    0.75
+   ],
+   "raw|ridge": [
+    34.4,
+    0.0
+   ]
+  },
+  "SemgHandMovementCh2": {
+   "esn|W-MM": [
+    77.67,
+    0.99
+   ],
+   "esn|W-QG": [
+    76.04,
+    1.03
+   ],
+   "esn|W-QG-h": [
+    76.07,
+    1.02
+   ],
+   "esn|W-QU": [
+    78.04,
+    1.34
+   ],
+   "esn|ridge": [
+    75.38,
+    1.26
+   ],
+   "esn|ridge_q|mm": [
+    70.16,
+    1.07
+   ],
+   "esn|ridge_q|mm|b=3": [
+    59.29,
+    2.23
+   ],
+   "esn|ridge_q|mm|b=4": [
+    61.51,
+    1.4
+   ],
+   "esn|ridge_q|mm|b=5": [
+    66.18,
+    1.53
+   ],
+   "esn|ridge_q|mm|b=6": [
+    70.16,
+    1.07
+   ],
+   "esn|ridge_q|qu": [
+    80.44,
+    1.26
+   ],
+   "esn|ridge_q|qu|b=3": [
+    72.16,
+    1.86
+   ],
+   "esn|ridge_q|qu|b=4": [
+    77.04,
+    1.23
+   ],
+   "esn|ridge_q|qu|b=5": [
+    80.13,
+    1.3
+   ],
+   "esn|ridge_q|qu|b=6": [
+    80.44,
+    1.26
+   ],
+   "raw|W-MM": [
+    41.36,
+    1.14
+   ],
+   "raw|W-QG": [
+    41.36,
+    1.42
+   ],
+   "raw|W-QG-h": [
+    42.33,
+    1.89
+   ],
+   "raw|W-QU": [
+    43.11,
+    1.16
+   ],
+   "raw|ridge": [
+    46.44,
+    0.0
+   ]
+  },
+  "SyntheticControl": {
+   "esn|W-MM": [
+    98.27,
+    0.42
+   ],
+   "esn|W-QG": [
+    98.2,
+    0.34
+   ],
+   "esn|W-QG-h": [
+    98.23,
+    0.4
+   ],
+   "esn|W-QU": [
+    98.37,
+    0.38
+   ],
+   "esn|ridge": [
+    98.67,
+    0.26
+   ],
+   "esn|ridge_q|mm": [
+    99.13,
+    0.34
+   ],
+   "esn|ridge_q|mm|b=3": [
+    99.27,
+    0.44
+   ],
+   "esn|ridge_q|mm|b=4": [
+    98.93,
+    0.2
+   ],
+   "esn|ridge_q|mm|b=5": [
+    99.2,
+    0.34
+   ],
+   "esn|ridge_q|mm|b=6": [
+    99.13,
+    0.34
+   ],
+   "esn|ridge_q|qu": [
+    98.37,
+    0.23
+   ],
+   "esn|ridge_q|qu|b=3": [
+    98.7,
+    0.38
+   ],
+   "esn|ridge_q|qu|b=4": [
+    98.37,
+    0.23
+   ],
+   "esn|ridge_q|qu|b=5": [
+    98.1,
+    0.21
+   ],
+   "esn|ridge_q|qu|b=6": [
+    97.7,
+    0.18
+   ],
+   "raw|W-MM": [
+    97.6,
+    0.59
+   ],
+   "raw|W-QG": [
+    98.47,
+    0.48
+   ],
+   "raw|W-QG-h": [
+    96.23,
+    0.88
+   ],
+   "raw|W-QU": [
+    98.13,
+    0.58
+   ],
+   "raw|ridge": [
+    80.0,
+    0.0
+   ]
+  },
+  "Trace": {
+   "esn|W-MM": [
+    93.4,
+    1.2
+   ],
+   "esn|W-QG": [
+    91.6,
+    3.14
+   ],
+   "esn|W-QG-h": [
+    94.5,
+    2.94
+   ],
+   "esn|W-QU": [
+    91.9,
+    1.51
+   ],
+   "esn|ridge": [
+    98.5,
+    0.5
+   ],
+   "esn|ridge_q|mm": [
+    97.5,
+    1.36
+   ],
+   "esn|ridge_q|mm|b=3": [
+    97.5,
+    1.43
+   ],
+   "esn|ridge_q|mm|b=4": [
+    99.2,
+    0.75
+   ],
+   "esn|ridge_q|mm|b=5": [
+    98.0,
+    0.77
+   ],
+   "esn|ridge_q|mm|b=6": [
+    97.5,
+    1.36
+   ],
+   "esn|ridge_q|qu": [
+    96.6,
+    1.11
+   ],
+   "esn|ridge_q|qu|b=3": [
+    96.8,
+    0.75
+   ],
+   "esn|ridge_q|qu|b=4": [
+    97.1,
+    1.22
+   ],
+   "esn|ridge_q|qu|b=5": [
+    96.6,
+    1.11
+   ],
+   "esn|ridge_q|qu|b=6": [
+    96.4,
+    1.11
+   ],
+   "raw|W-MM": [
+    89.7,
+    1.27
+   ],
+   "raw|W-QG": [
+    89.8,
+    2.14
+   ],
+   "raw|W-QG-h": [
+    85.5,
+    1.5
+   ],
+   "raw|W-QU": [
+    84.3,
+    1.1
+   ],
+   "raw|ridge": [
+    74.0,
+    0.0
+   ]
+  },
+  "TwoPatterns": {
+   "esn|W-MM": [
+    99.54,
+    0.17
+   ],
+   "esn|W-QG": [
+    98.91,
+    0.19
+   ],
+   "esn|W-QG-h": [
+    98.83,
+    0.34
+   ],
+   "esn|W-QU": [
+    99.11,
+    0.14
+   ],
+   "esn|ridge": [
+    99.87,
+    0.02
+   ],
+   "esn|ridge_q|mm": [
+    99.77,
+    0.12
+   ],
+   "esn|ridge_q|mm|b=3": [
+    99.3,
+    0.25
+   ],
+   "esn|ridge_q|mm|b=4": [
+    99.08,
+    0.26
+   ],
+   "esn|ridge_q|mm|b=5": [
+    99.72,
+    0.13
+   ],
+   "esn|ridge_q|mm|b=6": [
+    99.77,
+    0.12
+   ],
+   "esn|ridge_q|qu": [
+    99.98,
+    0.02
+   ],
+   "esn|ridge_q|qu|b=3": [
+    99.96,
+    0.03
+   ],
+   "esn|ridge_q|qu|b=4": [
+    99.98,
+    0.02
+   ],
+   "esn|ridge_q|qu|b=5": [
+    99.98,
+    0.02
+   ],
+   "esn|ridge_q|qu|b=6": [
+    99.97,
+    0.02
+   ],
+   "raw|W-MM": [
+    95.28,
+    0.25
+   ],
+   "raw|W-QG": [
+    79.59,
+    1.0
+   ],
+   "raw|W-QG-h": [
+    72.28,
+    1.15
+   ],
+   "raw|W-QU": [
+    82.17,
+    0.52
+   ],
+   "raw|ridge": [
+    78.7,
+    0.0
+   ]
+  }
+ },
+ "esn_minus_raw": {
+  "W-MM": {
+   "diff": 8.85,
+   "wins": 9,
+   "ties": 0,
+   "losses": 1,
+   "p_wilcoxon": 0.0195,
+   "per_dataset": {
+    "ACSF1": 4.2,
+    "FordA": 10.89,
+    "FordB": 7.28,
+    "FreezerRegularTrain": 2.77,
+    "LargeKitchenAppliances": 22.69,
+    "RefrigerationDevices": -4.27,
+    "SemgHandMovementCh2": 36.31,
+    "SyntheticControl": 0.67,
+    "Trace": 3.7,
+    "TwoPatterns": 4.27
+   }
+  },
+  "W-QU": {
+   "diff": 10.17,
+   "wins": 9,
+   "ties": 0,
+   "losses": 1,
+   "p_wilcoxon": 0.0098,
+   "per_dataset": {
+    "ACSF1": 1.1,
+    "FordA": 10.24,
+    "FordB": 6.75,
+    "FreezerRegularTrain": 4.27,
+    "LargeKitchenAppliances": 22.59,
+    "RefrigerationDevices": -2.91,
+    "SemgHandMovementCh2": 34.93,
+    "SyntheticControl": 0.23,
+    "Trace": 7.6,
+    "TwoPatterns": 16.94
+   }
+  },
+  "W-QG": {
+   "diff": 10.28,
+   "wins": 8,
+   "ties": 0,
+   "losses": 2,
+   "p_wilcoxon": 0.0098,
+   "per_dataset": {
+    "ACSF1": -1.2,
+    "FordA": 10.88,
+    "FordB": 8.64,
+    "FreezerRegularTrain": 2.84,
+    "LargeKitchenAppliances": 24.13,
+    "RefrigerationDevices": 1.95,
+    "SemgHandMovementCh2": 34.69,
+    "SyntheticControl": -0.27,
+    "Trace": 1.8,
+    "TwoPatterns": 19.32
+   }
+  }
+ },
+ "ridge_minus_W": {
+  "W-MM": {
+   "diff": 3.11,
+   "wins": 8,
+   "ties": 0,
+   "losses": 2,
+   "p_wilcoxon": 0.084,
+   "per_dataset": {
+    "ACSF1": -5.2,
+    "FordA": 7.84,
+    "FordB": 9.33,
+    "FreezerRegularTrain": 5.38,
+    "LargeKitchenAppliances": 8.91,
+    "RefrigerationDevices": 1.28,
+    "SemgHandMovementCh2": -2.29,
+    "SyntheticControl": 0.4,
+    "Trace": 5.1,
+    "TwoPatterns": 0.33
+   }
+  },
+  "W-QU": {
+   "diff": 3.11,
+   "wins": 8,
+   "ties": 0,
+   "losses": 2,
+   "p_wilcoxon": 0.0645,
+   "per_dataset": {
+    "ACSF1": -4.1,
+    "FordA": 7.05,
+    "FordB": 8.83,
+    "FreezerRegularTrain": 3.91,
+    "LargeKitchenAppliances": 6.88,
+    "RefrigerationDevices": 3.55,
+    "SemgHandMovementCh2": -2.67,
+    "SyntheticControl": 0.3,
+    "Trace": 6.6,
+    "TwoPatterns": 0.76
+   }
+  },
+  "W-QG": {
+   "diff": 3.17,
+   "wins": 7,
+   "ties": 0,
+   "losses": 3,
+   "p_wilcoxon": 0.0645,
+   "per_dataset": {
+    "ACSF1": -1.4,
+    "FordA": 8.2,
+    "FordB": 9.33,
+    "FreezerRegularTrain": 4.13,
+    "LargeKitchenAppliances": 4.11,
+    "RefrigerationDevices": -0.37,
+    "SemgHandMovementCh2": -0.67,
+    "SyntheticControl": 0.47,
+    "Trace": 6.9,
+    "TwoPatterns": 0.97
+   }
+  }
+ },
+ "ridge_minus_ridge_q_mm": {
+  "diff": 0.55,
+  "wins": 7,
+  "ties": 0,
+  "losses": 3,
+  "p_wilcoxon": 0.2754,
+  "per_dataset": {
+   "ACSF1": -4.6,
+   "FordA": 0.67,
+   "FordB": 1.88,
+   "FreezerRegularTrain": 0.02,
+   "LargeKitchenAppliances": -0.64,
+   "RefrigerationDevices": 2.32,
+   "SemgHandMovementCh2": 5.22,
+   "SyntheticControl": -0.47,
+   "Trace": 1.0,
+   "TwoPatterns": 0.1
+  }
+ },
+ "ridge_minus_ridge_q_qu": {
+  "diff": 0.04,
+  "wins": 7,
+  "ties": 0,
+  "losses": 3,
+  "p_wilcoxon": 0.4922,
+  "per_dataset": {
+   "ACSF1": -6.2,
+   "FordA": 0.75,
+   "FordB": 2.72,
+   "FreezerRegularTrain": 2.0,
+   "LargeKitchenAppliances": 0.61,
+   "RefrigerationDevices": 3.47,
+   "SemgHandMovementCh2": -5.07,
+   "SyntheticControl": 0.3,
+   "Trace": 1.9,
+   "TwoPatterns": -0.11
+  }
+ },
+ "selected_b": {
+  "ACSF1": {
+   "mm": "5",
+   "qu": "6"
+  },
+  "FordA": {
+   "mm": "6",
+   "qu": "6"
+  },
+  "FordB": {
+   "mm": "6",
+   "qu": "6"
+  },
+  "FreezerRegularTrain": {
+   "mm": "6",
+   "qu": "5"
+  },
+  "LargeKitchenAppliances": {
+   "mm": "6",
+   "qu": "5"
+  },
+  "RefrigerationDevices": {
+   "mm": "6",
+   "qu": "6"
+  },
+  "SemgHandMovementCh2": {
+   "mm": "6",
+   "qu": "6"
+  },
+  "SyntheticControl": {
+   "mm": "6",
+   "qu": "4"
+  },
+  "Trace": {
+   "mm": "6",
+   "qu": "5"
+  },
+  "TwoPatterns": {
+   "mm": "6",
+   "qu": "5"
+  }
+ },
+ "WQG_minus_WQGh": {
+  "diff": -0.12,
+  "wins": 4,
+  "ties": 0,
+  "losses": 6,
+  "p_wilcoxon": 0.7695,
+  "per_dataset": {
+   "ACSF1": -1.8,
+   "FordA": 0.72,
+   "FordB": 0.98,
+   "FreezerRegularTrain": -0.08,
+   "LargeKitchenAppliances": 2.67,
+   "RefrigerationDevices": -0.75,
+   "SemgHandMovementCh2": -0.02,
+   "SyntheticControl": -0.03,
+   "Trace": -2.9,
+   "TwoPatterns": 0.07
+  }
+ },
+ "selected": {
+  "ACSF1": {
+   "esn|ridge": {
+    "cfg": {
+     "id": 341,
+     "sr": 1.2,
+     "input_scaling": 1.0,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "alpha": "1e-02"
+    }
+   },
+   "esn|W-MM": {
+    "cfg": {
+     "id": 358,
+     "sr": 1.2,
+     "input_scaling": 2.0,
+     "lr": 1.0,
+     "bias": 0.0
+    },
+    "params": {
+     "Q": "16",
+     "n": "16",
+     "bl": "0"
+    }
+   },
+   "esn|W-QU": {
+    "cfg": {
+     "id": 250,
+     "sr": 1.0,
+     "input_scaling": 0.5,
+     "lr": 1.0,
+     "bias": 0.0
+    },
+    "params": {
+     "Q": "16",
+     "n": "16",
+     "bl": "1"
+    }
+   },
+   "esn|W-QG": {
+    "cfg": {
+     "id": 161,
+     "sr": 0.9,
+     "input_scaling": 0.1,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "8",
+     "n": "8",
+     "bl": "1"
+    }
+   },
+   "esn|W-QG-h": {
+    "cfg": {
+     "id": 250,
+     "sr": 1.0,
+     "input_scaling": 0.5,
+     "lr": 1.0,
+     "bias": 0.0
+    },
+    "params": {
+     "Q": "16",
+     "n": "32",
+     "bl": "1"
+    }
+   }
+  },
+  "FordA": {
+   "esn|ridge": {
+    "cfg": {
+     "id": 233,
+     "sr": 1.0,
+     "input_scaling": 0.1,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "alpha": "1e-08"
+    }
+   },
+   "esn|W-MM": {
+    "cfg": {
+     "id": 233,
+     "sr": 1.0,
+     "input_scaling": 0.1,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "64",
+     "n": "16",
+     "bl": "0"
+    }
+   },
+   "esn|W-QU": {
+    "cfg": {
+     "id": 233,
+     "sr": 1.0,
+     "input_scaling": 0.1,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "64",
+     "n": "8",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG": {
+    "cfg": {
+     "id": 233,
+     "sr": 1.0,
+     "input_scaling": 0.1,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "32",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG-h": {
+    "cfg": {
+     "id": 233,
+     "sr": 1.0,
+     "input_scaling": 0.1,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "64",
+     "n": "32",
+     "bl": "0"
+    }
+   }
+  },
+  "FordB": {
+   "esn|ridge": {
+    "cfg": {
+     "id": 336,
+     "sr": 1.2,
+     "input_scaling": 1.0,
+     "lr": 0.3,
+     "bias": 1.0
+    },
+    "params": {
+     "alpha": "1e-05"
+    }
+   },
+   "esn|W-MM": {
+    "cfg": {
+     "id": 233,
+     "sr": 1.0,
+     "input_scaling": 0.1,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "64",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QU": {
+    "cfg": {
+     "id": 233,
+     "sr": 1.0,
+     "input_scaling": 0.1,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "64",
+     "n": "8",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG": {
+    "cfg": {
+     "id": 233,
+     "sr": 1.0,
+     "input_scaling": 0.1,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "64",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG-h": {
+    "cfg": {
+     "id": 233,
+     "sr": 1.0,
+     "input_scaling": 0.1,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "32",
+     "n": "32",
+     "bl": "1"
+    }
+   }
+  },
+  "FreezerRegularTrain": {
+   "esn|ridge": {
+    "cfg": {
+     "id": 7,
+     "sr": 0.3,
+     "input_scaling": 0.1,
+     "lr": 0.1,
+     "bias": 0.0
+    },
+    "params": {
+     "alpha": "1e-12"
+    }
+   },
+   "esn|W-MM": {
+    "cfg": {
+     "id": 328,
+     "sr": 1.2,
+     "input_scaling": 1.0,
+     "lr": 0.03,
+     "bias": 0.0
+    },
+    "params": {
+     "Q": "32",
+     "n": "8",
+     "bl": "0"
+    }
+   },
+   "esn|W-QU": {
+    "cfg": {
+     "id": 314,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.1,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "8",
+     "n": "32",
+     "bl": "1"
+    }
+   },
+   "esn|W-QG": {
+    "cfg": {
+     "id": 255,
+     "sr": 1.0,
+     "input_scaling": 1.0,
+     "lr": 0.01,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "8",
+     "n": "8",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG-h": {
+    "cfg": {
+     "id": 327,
+     "sr": 1.2,
+     "input_scaling": 1.0,
+     "lr": 0.01,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "8",
+     "n": "32",
+     "bl": "0"
+    }
+   }
+  },
+  "LargeKitchenAppliances": {
+   "esn|ridge": {
+    "cfg": {
+     "id": 269,
+     "sr": 1.0,
+     "input_scaling": 1.0,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "alpha": "1e-05"
+    }
+   },
+   "esn|W-MM": {
+    "cfg": {
+     "id": 158,
+     "sr": 0.9,
+     "input_scaling": 0.1,
+     "lr": 0.5,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "32",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QU": {
+    "cfg": {
+     "id": 321,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.5,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "64",
+     "n": "8",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG": {
+    "cfg": {
+     "id": 339,
+     "sr": 1.2,
+     "input_scaling": 1.0,
+     "lr": 0.5,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "8",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG-h": {
+    "cfg": {
+     "id": 318,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.3,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "32",
+     "n": "32",
+     "bl": "0"
+    }
+   }
+  },
+  "RefrigerationDevices": {
+   "esn|ridge": {
+    "cfg": {
+     "id": 324,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 1.0,
+     "bias": 1.0
+    },
+    "params": {
+     "alpha": "1e-05"
+    }
+   },
+   "esn|W-MM": {
+    "cfg": {
+     "id": 323,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "32",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QU": {
+    "cfg": {
+     "id": 245,
+     "sr": 1.0,
+     "input_scaling": 0.5,
+     "lr": 0.3,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "64",
+     "n": "32",
+     "bl": "1"
+    }
+   },
+   "esn|W-QG": {
+    "cfg": {
+     "id": 323,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "64",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG-h": {
+    "cfg": {
+     "id": 323,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "64",
+     "n": "32",
+     "bl": "0"
+    }
+   }
+  },
+  "SemgHandMovementCh2": {
+   "esn|ridge": {
+    "cfg": {
+     "id": 235,
+     "sr": 1.0,
+     "input_scaling": 0.5,
+     "lr": 0.01,
+     "bias": 0.0
+    },
+    "params": {
+     "alpha": "1e-09"
+    }
+   },
+   "esn|W-MM": {
+    "cfg": {
+     "id": 309,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.01,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "32",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QU": {
+    "cfg": {
+     "id": 312,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.03,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "16",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG": {
+    "cfg": {
+     "id": 309,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.01,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "16",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG-h": {
+    "cfg": {
+     "id": 309,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.01,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "16",
+     "n": "32",
+     "bl": "0"
+    }
+   }
+  },
+  "SyntheticControl": {
+   "esn|ridge": {
+    "cfg": {
+     "id": 44,
+     "sr": 0.3,
+     "input_scaling": 1.0,
+     "lr": 0.1,
+     "bias": 0.1
+    },
+    "params": {
+     "alpha": "1e-11"
+    }
+   },
+   "esn|W-MM": {
+    "cfg": {
+     "id": 318,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.3,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "16",
+     "n": "16",
+     "bl": "1"
+    }
+   },
+   "esn|W-QU": {
+    "cfg": {
+     "id": 248,
+     "sr": 1.0,
+     "input_scaling": 0.5,
+     "lr": 0.5,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "8",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG": {
+    "cfg": {
+     "id": 318,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.3,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "64",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG-h": {
+    "cfg": {
+     "id": 318,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.3,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "64",
+     "n": "32",
+     "bl": "0"
+    }
+   }
+  },
+  "Trace": {
+   "esn|ridge": {
+    "cfg": {
+     "id": 1,
+     "sr": 0.3,
+     "input_scaling": 0.1,
+     "lr": 0.01,
+     "bias": 0.0
+    },
+    "params": {
+     "alpha": "1e-14"
+    }
+   },
+   "esn|W-MM": {
+    "cfg": {
+     "id": 358,
+     "sr": 1.2,
+     "input_scaling": 2.0,
+     "lr": 1.0,
+     "bias": 0.0
+    },
+    "params": {
+     "Q": "32",
+     "n": "16",
+     "bl": "1"
+    }
+   },
+   "esn|W-QU": {
+    "cfg": {
+     "id": 358,
+     "sr": 1.2,
+     "input_scaling": 2.0,
+     "lr": 1.0,
+     "bias": 0.0
+    },
+    "params": {
+     "Q": "8",
+     "n": "32",
+     "bl": "1"
+    }
+   },
+   "esn|W-QG": {
+    "cfg": {
+     "id": 341,
+     "sr": 1.2,
+     "input_scaling": 1.0,
+     "lr": 1.0,
+     "bias": 0.1
+    },
+    "params": {
+     "Q": "8",
+     "n": "8",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG-h": {
+    "cfg": {
+     "id": 340,
+     "sr": 1.2,
+     "input_scaling": 1.0,
+     "lr": 1.0,
+     "bias": 0.0
+    },
+    "params": {
+     "Q": "32",
+     "n": "32",
+     "bl": "0"
+    }
+   }
+  },
+  "TwoPatterns": {
+   "esn|ridge": {
+    "cfg": {
+     "id": 8,
+     "sr": 0.3,
+     "input_scaling": 0.1,
+     "lr": 0.1,
+     "bias": 0.1
+    },
+    "params": {
+     "alpha": "1e-14"
+    }
+   },
+   "esn|W-MM": {
+    "cfg": {
+     "id": 318,
+     "sr": 1.2,
+     "input_scaling": 0.5,
+     "lr": 0.3,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "32",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QU": {
+    "cfg": {
+     "id": 336,
+     "sr": 1.2,
+     "input_scaling": 1.0,
+     "lr": 0.3,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "64",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG": {
+    "cfg": {
+     "id": 336,
+     "sr": 1.2,
+     "input_scaling": 1.0,
+     "lr": 0.3,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "16",
+     "n": "32",
+     "bl": "0"
+    }
+   },
+   "esn|W-QG-h": {
+    "cfg": {
+     "id": 336,
+     "sr": 1.2,
+     "input_scaling": 1.0,
+     "lr": 0.3,
+     "bias": 1.0
+    },
+    "params": {
+     "Q": "64",
+     "n": "32",
+     "bl": "0"
+    }
+   }
+  }
+ },
+ "fig2": {
+  "esn|ridge": {
+   "acc_mean": 100.0,
+   "acc_iqr": [
+    100.0,
+    100.0
+   ],
+   "e_gm": 1.0,
+   "ridge_over_e_gm": 1
+  },
+  "esn|ridge_q|mm": {
+   "acc_mean": 99.15,
+   "acc_iqr": [
+    97.99,
+    100.35
+   ],
+   "e_gm": 1.0,
+   "ridge_over_e_gm": 1
+  },
+  "esn|W-MM": {
+   "acc_mean": 96.55,
+   "acc_iqr": [
+    92.36,
+    99.65
+   ],
+   "e_gm": 0.0015627990991039908,
+   "ridge_over_e_gm": 640
+  },
+  "esn|W-QU": {
+   "acc_mean": 96.37,
+   "acc_iqr": [
+    92.64,
+    99.58
+   ],
+   "e_gm": 0.0013604956360436522,
+   "ridge_over_e_gm": 735
+  },
+  "esn|W-QG": {
+   "acc_mean": 96.56,
+   "acc_iqr": [
+    93.55,
+    100.42
+   ],
+   "e_gm": 0.0009620156900211723,
+   "ridge_over_e_gm": 1039
+  }
+ },
+ "energy_ratios_gm_min_max": {
+  "inference fp32 / local": [
+   4.368,
+   1.846,
+   14.769
+  ],
+  "inference int8 / local": [
+   0.439,
+   0.178,
+   1.423
+  ],
+  "inference fp32 / single": [
+   0.075,
+   0.024,
+   0.678
+  ],
+  "training / local": [
+   969.873,
+   254.173,
+   6108.936
+  ],
+  "training / single": [
+   16.185,
+   3.533,
+   275.136
+  ],
+  "update / local": [
+   1854.787,
+   925.412,
+   7403.294
+  ],
+  "update / single": [
+   30.953,
+   8.547,
+   333.431
+  ],
+  "memory model ridge / W-QG-h": [
+   0.008,
+   0.004,
+   0.031
+  ]
+ },
+ "energy_per_dataset": {
+  "ACSF1": {
+   "C": 10,
+   "M": 100,
+   "A": 512,
+   "Q": 16,
+   "bl": 1,
+   "acc_ridge": 78.4,
+   "acc_wqgh": 81.6,
+   "mem_ridge_model_kb": 40.0,
+   "mem_ridge_train_kb": 4136.0,
+   "mem_wqgh_kb": 2560.0,
+   "E_inf_ridge_fp32_nJ": 161.5907,
+   "E_inf_ridge_int8_nJ": 17.3828,
+   "E_train_ridge_uJ": 1117.555,
+   "E_upd_ridge_nJ": 9741.1072,
+   "E_inf_wqgh_local_nJ": 13.824,
+   "E_train_wqgh_local_uJ": 0.2611,
+   "E_upd_wqgh_local_nJ": 2.6112,
+   "E_inf_wqgh_single_nJ": 916.9174,
+   "E_train_wqgh_single_uJ": 18.323,
+   "E_upd_wqgh_single_nJ": 183.2299
+  },
+  "FordA": {
+   "C": 2,
+   "M": 3601,
+   "A": 2048,
+   "Q": 64,
+   "bl": 0,
+   "acc_ridge": 93.4697,
+   "acc_wqgh": 84.5455,
+   "mem_ridge_model_kb": 8.0,
+   "mem_ridge_train_kb": 4104.0,
+   "mem_wqgh_kb": 2048.0,
+   "E_inf_ridge_fp32_nJ": 19.6608,
+   "E_inf_ridge_int8_nJ": 1.8944,
+   "E_train_ridge_uJ": 9559.8753,
+   "E_upd_ridge_nJ": 9665.7408,
+   "E_inf_wqgh_local_nJ": 10.6496,
+   "E_train_wqgh_local_uJ": 37.6117,
+   "E_upd_wqgh_local_nJ": 10.4448,
+   "E_inf_wqgh_single_nJ": 655.7696,
+   "E_train_wqgh_single_uJ": 2360.6888,
+   "E_upd_wqgh_single_nJ": 655.5648
+  },
+  "FordB": {
+   "C": 2,
+   "M": 3636,
+   "A": 1024,
+   "Q": 32,
+   "bl": 1,
+   "acc_ridge": 80.2346,
+   "acc_wqgh": 69.9259,
+   "mem_ridge_model_kb": 8.0,
+   "mem_ridge_train_kb": 4104.0,
+   "mem_wqgh_kb": 1024.0,
+   "E_inf_ridge_fp32_nJ": 19.6608,
+   "E_inf_ridge_int8_nJ": 1.8944,
+   "E_train_ridge_uJ": 9644.6979,
+   "E_upd_ridge_nJ": 9665.7408,
+   "E_inf_wqgh_local_nJ": 5.5296,
+   "E_train_wqgh_local_uJ": 18.9886,
+   "E_upd_wqgh_local_nJ": 5.2224,
+   "E_inf_wqgh_single_nJ": 232.1144,
+   "E_train_wqgh_single_uJ": 842.8508,
+   "E_upd_wqgh_single_nJ": 231.8072
+  },
+  "FreezerRegularTrain": {
+   "C": 2,
+   "M": 150,
+   "A": 256,
+   "Q": 8,
+   "bl": 0,
+   "acc_ridge": 99.5018,
+   "acc_wqgh": 95.4561,
+   "mem_ridge_model_kb": 8.0,
+   "mem_ridge_train_kb": 4104.0,
+   "mem_wqgh_kb": 256.0,
+   "E_inf_ridge_fp32_nJ": 19.6608,
+   "E_inf_ridge_int8_nJ": 1.8944,
+   "E_train_ridge_uJ": 1196.3741,
+   "E_upd_ridge_nJ": 9665.7408,
+   "E_inf_wqgh_local_nJ": 1.3312,
+   "E_train_wqgh_local_uJ": 0.1958,
+   "E_upd_wqgh_local_nJ": 1.3056,
+   "E_inf_wqgh_single_nJ": 29.0143,
+   "E_train_wqgh_single_uJ": 4.3483,
+   "E_upd_wqgh_single_nJ": 28.9887
+  },
+  "LargeKitchenAppliances": {
+   "C": 3,
+   "M": 375,
+   "A": 1024,
+   "Q": 32,
+   "bl": 0,
+   "acc_ridge": 85.7867,
+   "acc_wqgh": 79.0133,
+   "mem_ridge_model_kb": 12.0,
+   "mem_ridge_train_kb": 4108.0,
+   "mem_wqgh_kb": 1536.0,
+   "E_inf_ridge_fp32_nJ": 32.9433,
+   "E_inf_ridge_int8_nJ": 3.2731,
+   "E_train_ridge_uJ": 1748.2516,
+   "E_upd_ridge_nJ": 9675.1616,
+   "E_inf_wqgh_local_nJ": 7.9872,
+   "E_train_wqgh_local_uJ": 1.9584,
+   "E_upd_wqgh_local_nJ": 5.2224,
+   "E_inf_wqgh_single_nJ": 425.976,
+   "E_train_wqgh_single_uJ": 106.4556,
+   "E_upd_wqgh_single_nJ": 283.8816
+  },
+  "RefrigerationDevices": {
+   "C": 3,
+   "M": 375,
+   "A": 2048,
+   "Q": 64,
+   "bl": 0,
+   "acc_ridge": 52.24,
+   "acc_wqgh": 53.36,
+   "mem_ridge_model_kb": 12.0,
+   "mem_ridge_train_kb": 4108.0,
+   "mem_wqgh_kb": 3072.0,
+   "E_inf_ridge_fp32_nJ": 32.9433,
+   "E_inf_ridge_int8_nJ": 3.2731,
+   "E_train_ridge_uJ": 1748.2516,
+   "E_upd_ridge_nJ": 9675.1616,
+   "E_inf_wqgh_local_nJ": 15.9744,
+   "E_train_wqgh_local_uJ": 3.9168,
+   "E_upd_wqgh_local_nJ": 10.4448,
+   "E_inf_wqgh_single_nJ": 1204.5876,
+   "E_train_wqgh_single_uJ": 301.0701,
+   "E_upd_wqgh_single_nJ": 802.8536
+  },
+  "SemgHandMovementCh2": {
+   "C": 6,
+   "M": 450,
+   "A": 512,
+   "Q": 16,
+   "bl": 0,
+   "acc_ridge": 75.3778,
+   "acc_wqgh": 76.0667,
+   "mem_ridge_model_kb": 24.0,
+   "mem_ridge_train_kb": 4120.0,
+   "mem_wqgh_kb": 1536.0,
+   "E_inf_ridge_fp32_nJ": 81.471,
+   "E_inf_ridge_int8_nJ": 8.4943,
+   "E_train_ridge_uJ": 1951.1968,
+   "E_upd_ridge_nJ": 9703.424,
+   "E_inf_wqgh_local_nJ": 7.9872,
+   "E_train_wqgh_local_uJ": 1.175,
+   "E_upd_wqgh_local_nJ": 2.6112,
+   "E_inf_wqgh_single_nJ": 425.976,
+   "E_train_wqgh_single_uJ": 63.8734,
+   "E_upd_wqgh_single_nJ": 141.9408
+  },
+  "SyntheticControl": {
+   "C": 6,
+   "M": 300,
+   "A": 2048,
+   "Q": 64,
+   "bl": 0,
+   "acc_ridge": 98.6667,
+   "acc_wqgh": 98.2333,
+   "mem_ridge_model_kb": 24.0,
+   "mem_ridge_train_kb": 4120.0,
+   "mem_wqgh_kb": 6144.0,
+   "E_inf_ridge_fp32_nJ": 81.471,
+   "E_inf_ridge_int8_nJ": 8.4943,
+   "E_train_ridge_uJ": 1584.8455,
+   "E_upd_ridge_nJ": 9703.424,
+   "E_inf_wqgh_local_nJ": 31.9488,
+   "E_train_wqgh_local_uJ": 3.1334,
+   "E_upd_wqgh_local_nJ": 10.4448,
+   "E_inf_wqgh_single_nJ": 3406.5793,
+   "E_train_wqgh_single_uJ": 340.5965,
+   "E_upd_wqgh_single_nJ": 1135.3216
+  },
+  "Trace": {
+   "C": 4,
+   "M": 100,
+   "A": 1024,
+   "Q": 32,
+   "bl": 0,
+   "acc_ridge": 98.5,
+   "acc_wqgh": 94.5,
+   "mem_ridge_model_kb": 16.0,
+   "mem_ridge_train_kb": 4112.0,
+   "mem_wqgh_kb": 2048.0,
+   "E_inf_ridge_fp32_nJ": 47.8047,
+   "E_inf_ridge_int8_nJ": 4.8492,
+   "E_train_ridge_uJ": 1085.788,
+   "E_upd_ridge_nJ": 9684.5824,
+   "E_inf_wqgh_local_nJ": 10.6496,
+   "E_train_wqgh_local_uJ": 0.5222,
+   "E_upd_wqgh_local_nJ": 5.2224,
+   "E_inf_wqgh_single_nJ": 655.7696,
+   "E_train_wqgh_single_uJ": 32.7782,
+   "E_upd_wqgh_single_nJ": 327.7824
+  },
+  "TwoPatterns": {
+   "C": 4,
+   "M": 1000,
+   "A": 2048,
+   "Q": 64,
+   "bl": 0,
+   "acc_ridge": 99.8725,
+   "acc_wqgh": 98.8325,
+   "mem_ridge_model_kb": 16.0,
+   "mem_ridge_train_kb": 4112.0,
+   "mem_wqgh_kb": 4096.0,
+   "E_inf_ridge_fp32_nJ": 47.8047,
+   "E_inf_ridge_int8_nJ": 4.8492,
+   "E_train_ridge_uJ": 3275.4175,
+   "E_upd_ridge_nJ": 9684.5824,
+   "E_inf_wqgh_local_nJ": 21.2992,
+   "E_train_wqgh_local_uJ": 10.4448,
+   "E_upd_wqgh_local_nJ": 10.4448,
+   "E_inf_wqgh_single_nJ": 1854.4572,
+   "E_train_wqgh_single_uJ": 927.0238,
+   "E_upd_wqgh_single_nJ": 927.0238
+  }
+ },
+ "cost_table": {
+  "ACSF1": {
+   "C": 10,
+   "M": 100,
+   "Q": 8,
+   "n": 8,
+   "A": 1024,
+   "U": 26078,
+   "mem_sparse_kb": 76.4,
+   "ridge_train_flops": 462771541.3333333,
+   "ridge_update_macs": 2097152,
+   "ridge_inf_macs": 10240,
+   "ridge_mem_train_kb": 4136.0,
+   "ridge_mem_model_kb": 40.0,
+   "w_train_incr": 102400,
+   "w_update_incr": 1024,
+   "w_inf_lookups": 10240
+  },
+  "FordA": {
+   "C": 2,
+   "M": 3601,
+   "Q": 32,
+   "n": 32,
+   "A": 1024,
+   "U": 402152,
+   "mem_sparse_kb": 2356.4,
+   "ridge_train_flops": 4133836117.3333335,
+   "ridge_update_macs": 2097152,
+   "ridge_inf_macs": 2048,
+   "ridge_mem_train_kb": 4104.0,
+   "ridge_mem_model_kb": 8.0,
+   "w_train_incr": 3687424,
+   "w_update_incr": 1024,
+   "w_inf_lookups": 2048
+  },
+  "FordB": {
+   "C": 2,
+   "M": 3636,
+   "Q": 64,
+   "n": 32,
+   "A": 2048,
+   "U": 852128,
+   "mem_sparse_kb": 4992.9,
+   "ridge_train_flops": 4170536277.3333335,
+   "ridge_update_macs": 2097152,
+   "ridge_inf_macs": 2048,
+   "ridge_mem_train_kb": 4104.0,
+   "ridge_mem_model_kb": 8.0,
+   "w_train_incr": 7446528,
+   "w_update_incr": 2048,
+   "w_inf_lookups": 4096
+  },
+  "FreezerRegularTrain": {
+   "C": 2,
+   "M": 150,
+   "Q": 8,
+   "n": 8,
+   "A": 1024,
+   "U": 11533,
+   "mem_sparse_kb": 33.8,
+   "ridge_train_flops": 515200341.3333333,
+   "ridge_update_macs": 2097152,
+   "ridge_inf_macs": 2048,
+   "ridge_mem_train_kb": 4104.0,
+   "ridge_mem_model_kb": 8.0,
+   "w_train_incr": 153600,
+   "w_update_incr": 1024,
+   "w_inf_lookups": 2048
+  },
+  "LargeKitchenAppliances": {
+   "C": 3,
+   "M": 375,
+   "Q": 8,
+   "n": 32,
+   "A": 256,
+   "U": 18632,
+   "mem_sparse_kb": 109.2,
+   "ridge_train_flops": 751129941.3333333,
+   "ridge_update_macs": 2097152,
+   "ridge_inf_macs": 3072,
+   "ridge_mem_train_kb": 4108.0,
+   "ridge_mem_model_kb": 12.0,
+   "w_train_incr": 96000,
+   "w_update_incr": 256,
+   "w_inf_lookups": 768
+  },
+  "RefrigerationDevices": {
+   "C": 3,
+   "M": 375,
+   "Q": 64,
+   "n": 32,
+   "A": 2048,
+   "U": 282363,
+   "mem_sparse_kb": 1654.5,
+   "ridge_train_flops": 751129941.3333333,
+   "ridge_update_macs": 2097152,
+   "ridge_inf_macs": 3072,
+   "ridge_mem_train_kb": 4108.0,
+   "ridge_mem_model_kb": 12.0,
+   "w_train_incr": 768000,
+   "w_update_incr": 2048,
+   "w_inf_lookups": 6144
+  },
+  "SemgHandMovementCh2": {
+   "C": 6,
+   "M": 450,
+   "Q": 16,
+   "n": 32,
+   "A": 512,
+   "U": 70864,
+   "mem_sparse_kb": 415.2,
+   "ridge_train_flops": 829773141.3333333,
+   "ridge_update_macs": 2097152,
+   "ridge_inf_macs": 6144,
+   "ridge_mem_train_kb": 4120.0,
+   "ridge_mem_model_kb": 24.0,
+   "w_train_incr": 230400,
+   "w_update_incr": 512,
+   "w_inf_lookups": 3072
+  },
+  "SyntheticControl": {
+   "C": 6,
+   "M": 300,
+   "Q": 64,
+   "n": 32,
+   "A": 2048,
+   "U": 163347,
+   "mem_sparse_kb": 957.1,
+   "ridge_train_flops": 672486741.3333333,
+   "ridge_update_macs": 2097152,
+   "ridge_inf_macs": 6144,
+   "ridge_mem_train_kb": 4120.0,
+   "ridge_mem_model_kb": 24.0,
+   "w_train_incr": 614400,
+   "w_update_incr": 2048,
+   "w_inf_lookups": 12288
+  },
+  "Trace": {
+   "C": 4,
+   "M": 100,
+   "Q": 8,
+   "n": 8,
+   "A": 1024,
+   "U": 15565,
+   "mem_sparse_kb": 45.6,
+   "ridge_train_flops": 462771541.3333333,
+   "ridge_update_macs": 2097152,
+   "ridge_inf_macs": 4096,
+   "ridge_mem_train_kb": 4112.0,
+   "ridge_mem_model_kb": 16.0,
+   "w_train_incr": 102400,
+   "w_update_incr": 1024,
+   "w_inf_lookups": 4096
+  },
+  "TwoPatterns": {
+   "C": 4,
+   "M": 1000,
+   "Q": 16,
+   "n": 32,
+   "A": 512,
+   "U": 131349,
+   "mem_sparse_kb": 769.6,
+   "ridge_train_flops": 1406489941.3333333,
+   "ridge_update_macs": 2097152,
+   "ridge_inf_macs": 4096,
+   "ridge_mem_train_kb": 4112.0,
+   "ridge_mem_model_kb": 16.0,
+   "w_train_incr": 512000,
+   "w_update_incr": 512,
+   "w_inf_lookups": 2048
+  }
+ }
+}

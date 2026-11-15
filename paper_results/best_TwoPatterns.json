@@ -1,0 +1,288 @@
+{
+ "esn|ridge": {
+  "cfg": {
+   "id": 8,
+   "sr": 0.3,
+   "input_scaling": 0.1,
+   "lr": 0.1,
+   "bias": 0.1
+  },
+  "params": [
+   "alpha=1e-14"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm": {
+  "cfg": {
+   "id": 262,
+   "sr": 1.0,
+   "input_scaling": 1.0,
+   "lr": 0.3,
+   "bias": 0.0
+  },
+  "params": [
+   "q=mm",
+   "b=6",
+   "alpha=1e+00"
+  ],
+  "val_acc": 99.86666666666666,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=3": {
+  "cfg": {
+   "id": 262,
+   "sr": 1.0,
+   "input_scaling": 1.0,
+   "lr": 0.3,
+   "bias": 0.0
+  },
+  "params": [
+   "q=mm",
+   "b=3",
+   "alpha=1e+01"
+  ],
+  "val_acc": 99.16666666666666,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=4": {
+  "cfg": {
+   "id": 244,
+   "sr": 1.0,
+   "input_scaling": 0.5,
+   "lr": 0.3,
+   "bias": 0.0
+  },
+  "params": [
+   "q=mm",
+   "b=4",
+   "alpha=1e+00"
+  ],
+  "val_acc": 99.46666666666665,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=5": {
+  "cfg": {
+   "id": 244,
+   "sr": 1.0,
+   "input_scaling": 0.5,
+   "lr": 0.3,
+   "bias": 0.0
+  },
+  "params": [
+   "q=mm",
+   "b=5",
+   "alpha=1e+00"
+  ],
+  "val_acc": 99.79999999999998,
+  "n_val": 15
+ },
+ "esn|ridge_q|mm|b=6": {
+  "cfg": {
+   "id": 262,
+   "sr": 1.0,
+   "input_scaling": 1.0,
+   "lr": 0.3,
+   "bias": 0.0
+  },
+  "params": [
+   "q=mm",
+   "b=6",
+   "alpha=1e+00"
+  ],
+  "val_acc": 99.86666666666666,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu": {
+  "cfg": {
+   "id": 99,
+   "sr": 0.6,
+   "input_scaling": 0.5,
+   "lr": 0.1,
+   "bias": 1.0
+  },
+  "params": [
+   "q=qu",
+   "b=5",
+   "alpha=1e-01"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=3": {
+  "cfg": {
+   "id": 333,
+   "sr": 1.2,
+   "input_scaling": 1.0,
+   "lr": 0.1,
+   "bias": 1.0
+  },
+  "params": [
+   "q=qu",
+   "b=3",
+   "alpha=1e+01"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=4": {
+  "cfg": {
+   "id": 242,
+   "sr": 1.0,
+   "input_scaling": 0.5,
+   "lr": 0.1,
+   "bias": 0.1
+  },
+  "params": [
+   "q=qu",
+   "b=4",
+   "alpha=1e-01"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=5": {
+  "cfg": {
+   "id": 99,
+   "sr": 0.6,
+   "input_scaling": 0.5,
+   "lr": 0.1,
+   "bias": 1.0
+  },
+  "params": [
+   "q=qu",
+   "b=5",
+   "alpha=1e-01"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|ridge_q|qu|b=6": {
+  "cfg": {
+   "id": 117,
+   "sr": 0.6,
+   "input_scaling": 1.0,
+   "lr": 0.1,
+   "bias": 1.0
+  },
+  "params": [
+   "q=qu",
+   "b=6",
+   "alpha=1e-01"
+  ],
+  "val_acc": 100.0,
+  "n_val": 15
+ },
+ "esn|W-MM": {
+  "cfg": {
+   "id": 318,
+   "sr": 1.2,
+   "input_scaling": 0.5,
+   "lr": 0.3,
+   "bias": 1.0
+  },
+  "params": [
+   "Q=32",
+   "n=32",
+   "bl=0"
+  ],
+  "val_acc": 98.96666666666664,
+  "n_val": 15
+ },
+ "esn|W-QU": {
+  "cfg": {
+   "id": 336,
+   "sr": 1.2,
+   "input_scaling": 1.0,
+   "lr": 0.3,
+   "bias": 1.0
+  },
+  "params": [
+   "Q=64",
+   "n=32",
+   "bl=0"
+  ],
+  "val_acc": 99.06666666666666,
+  "n_val": 15
+ },
+ "esn|W-QG": {
+  "cfg": {
+   "id": 336,
+   "sr": 1.2,
+   "input_scaling": 1.0,
+   "lr": 0.3,
+   "bias": 1.0
+  },
+  "params": [
+   "Q=16",
+   "n=32",
+   "bl=0"
+  ],
+  "val_acc": 98.89999999999998,
+  "n_val": 15
+ },
+ "esn|W-QG-h": {
+  "cfg": {
+   "id": 336,
+   "sr": 1.2,
+   "input_scaling": 1.0,
+   "lr": 0.3,
+   "bias": 1.0
+  },
+  "params": [
+   "Q=64",
+   "n=32",
+   "bl=0"
+  ],
+  "val_acc": 98.69999999999999,
+  "n_val": 15
+ },
+ "raw|ridge": {
+  "cfg": null,
+  "params": [
+   "alpha=1e+02"
+  ],
+  "val_acc": 74.40000000000002,
+  "n_val": 15
+ },
+ "raw|W-MM": {
+  "cfg": null,
+  "params": [
+   "Q=64",
+   "n=16",
+   "bl=0"
+  ],
+  "val_acc": 93.66666666666669,
+  "n_val": 15
+ },
+ "raw|W-QU": {
+  "cfg": null,
+  "params": [
+   "Q=64",
+   "n=8",
+   "bl=0"
+  ],
+  "val_acc": 79.13333333333334,
+  "n_val": 15
+ },
+ "raw|W-QG": {
+  "cfg": null,
+  "params": [
+   "Q=64",
+   "n=32",
+   "bl=1"
+  ],
+  "val_acc": 75.4,
+  "n_val": 15
+ },
+ "raw|W-QG-h": {
+  "cfg": null,
+  "params": [
+   "Q=64",
+   "n=32",
+   "bl=1"
+  ],
+  "val_acc": 68.8,
+  "n_val": 15
+ }
+}
